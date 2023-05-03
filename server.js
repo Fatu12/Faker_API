@@ -36,8 +36,6 @@ app.get("/api/users/new ", (_req,res) => {
     
 });
 
-
-
 // // Create an api route "/api/companies/new" that returns a new company
 app.get("/api/companies/new", (_req,res)=>{
     const  newCompany = newCompanyInfo();
